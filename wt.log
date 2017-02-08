@@ -1,0 +1,45 @@
+[2016-04-13 18:46:19] - start_date - DateTime Object
+(
+    [date] => 2016-03-02 00:00:00.000000
+    [timezone_type] => 3
+    [timezone] => Europe/Sofia
+)
+
+[2016-04-13 18:46:19] - end_date - DateTime Object
+(
+    [date] => 2016-03-18 18:46:19.000000
+    [timezone_type] => 3
+    [timezone] => Europe/Sofia
+)
+
+[2016-04-13 18:46:19] - days - 16.782164351852
+[2016-04-13 18:49:08] - start_date - DateTime Object
+(
+    [date] => 2016-03-02 00:00:00.000000
+    [timezone_type] => 3
+    [timezone] => Europe/Sofia
+)
+
+[2016-04-13 18:49:08] - end_date - DateTime Object
+(
+    [date] => 2016-03-18 00:00:00.000000
+    [timezone_type] => 3
+    [timezone] => Europe/Sofia
+)
+
+[2016-04-13 18:49:08] - days - 16
+[2016-04-14 14:24:12] - start_date - DateTime Object
+(
+    [date] => 2016-03-02 00:00:00.000000
+    [timezone_type] => 3
+    [timezone] => Europe/Sofia
+)
+
+[2016-04-14 14:24:12] - end_date - DateTime Object
+(
+    [date] => 2016-04-14 00:00:00.000000
+    [timezone_type] => 3
+    [timezone] => Europe/Sofia
+)
+
+[2016-04-14 14:24:12] - days_count - 43.958333333333

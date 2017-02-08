@@ -1,0 +1,29 @@
+﻿<html>
+<body>
+	<h3>Working time calculation for PR Master v4.5.4.809</h3>
+	<form action="wtc.php" accept-charset="UTF-8" autocomplete="on" method="POST" enctype="multipart/form-data" name="file_upload_form">
+		<!-- MAX_FILE_SIZE must precede the file input field -->
+		<input type="hidden" name="MAX_FILE_SIZE" value="30000000" /> <!-- 30MB -->
+		<div>
+			Please, upload a csv file:
+			<input type="file" accept="text/csv" autocomplete="on" name="csvfile" autofocus required/>
+			<input type="submit" value="Изпрати">
+		</div>
+		<div>
+			Include false check as working time: <input type="checkbox" name="include_mischeck" value="true" />
+		</div>
+	</form>
+	<ol type="1" style="margin-top:4ex"><span style="font-weight:bold">Requirements:</span>
+		<li>EVENTS FILE - PR Master v4.5.4.809.</li>
+		<li>Must contain at least the following columns:"Unique event ID", "Date", "Time", "User ID", "First Name", "Last Name", "T&A mode code".</li>
+		<li>Columns' separator: ,(comma).</li>
+		<li>Create columns: NO.</li>
+		<li>Append header to each report: YES.</li>
+		<li>Columns' order: Default.</li>
+		<li>Short date format: yyyy-mm-dd.</li>
+		<li>Date separator: -(dash).</li>
+		<li>Time format: HH:mm:ss.</li>
+		<li>Time separator: :(colon).</li>
+	</ol> 
+</body>
+</html>
